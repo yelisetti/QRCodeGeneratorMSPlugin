@@ -1,0 +1,18 @@
+{
+  "name": "GMQRC",
+  "author": "Vishal Yelisetti",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["activeTab", "cookies", "storage","tabs","browsingData","scripting"],
+  "action": {
+    "default_popup": "popup/qrcg.html",
+    "default_icon": {
+      "16": "icons/icons8-qrcode-50.png",
+      "32": "icons/icons8-qrcode-50.png",
+      "48": "icons/icons8-qrcode-50.png",
+      "64": "icons/icons8-qrcode-50.png",
+      "128": "icons/icons8-qrcode-50.png"
+    }
+  },
+  "host_permissions": ["https://*/*","http://*/*"]
+}

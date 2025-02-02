@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+</head>
+
+<body>
+<h3>QR Code Generator</h3>
+<input type="text" id="text" placeholder="Enter text">
+<button id="genQRCode">Generate QR Code</button>
+<button id="saveToClipboard">Copy to Clipboard</button>
+<button id="downloadQRCode">Download QR Code</button>
+<script src="../js/qrcg.js"></script>
+<script src="../js/qrcode.min.js"></script>
+<div id="qrcode"></div>
+
+
+<h3>URL Shortener</h3>
+<input type="url" id="urlinput" placeholder="Enter URL">
+<button id="shortenURL">Shorten URL</button>
+<p id="shortenedURL"></p>
+<button id="saveToClipboard2" style="display: none;">Copy to Clipboard</button>
+</body>
+</html>
